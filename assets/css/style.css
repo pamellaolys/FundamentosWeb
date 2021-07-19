@@ -1,0 +1,120 @@
+/* Estilos da pagina index.html */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(50deg,#98ADDA, #ba64e698,  #FCD2D3);
+    background-size: 300% 300%;
+    animation: colors 10s infinite;
+    overflow-x: hidden;
+    height: 100vh;/* viewheigh - ocupa 100% da altura do meu dispositivo   */
+}
+
+@keyframes colors {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.tituloprincipal{
+    color: #ffffff;
+    text-align: center;
+    margin: 20px;
+    text-shadow: 2px 2px 5px #AA2EE6;
+}
+
+p {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.conteudos {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;/*alinhamento (esquerda,direito,centro)*/
+    align-items: center;/*alinhamento dos itens (esquerda,direito,centro)*/
+}
+
+#menu {
+
+    background-color: #ffffff;
+    height: 24px;
+    width: 100%;
+    top: 0;
+}
+
+#menu li {
+    display: inline;/* para o menu ficar em uma linha só*/
+    padding: 15px; /*espaçamento dentro do elemento*/
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #0d0d99;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: #f104f1e0;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.img {
+    border-radius: 50%;
+    padding: 50px;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin: 50px;
+    text-shadow: 2px 2px 5px #AA2EE6;
+}
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+
+}
+
+
+/* Estilos da pagina contato.html */
+
+.geral {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+   margin: 50px;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+.endereco{
+    font-family:Arial, Helvetica, sans-serif;
+}
