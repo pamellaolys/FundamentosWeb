@@ -135,6 +135,7 @@ h2 {
     background-color: #FCD2D3;
     color:black;
 }
+
 /* Estilos da pagina interesses.html */
 .imagemcomlegenda {
     display: flex;
@@ -144,11 +145,10 @@ h2 {
     justify-content: space-around;
 }
 
-.imagemcomlegenda img {
+.imagemcomlegenda img{
     width: 350px;
     height: 350px;
     border-radius: 80px;
-    
 }
 
 .borda {
